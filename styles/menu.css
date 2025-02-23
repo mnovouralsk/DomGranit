@@ -46,27 +46,26 @@ body {
 }
 .social-icons {
     display: flex;
-    gap: 15px;
+    gap: 10px;
     align-items: center;
     flex: 1 1 25%;
     justify-content: center;
 }
 .social-icons a{
     color: rgb(30, 4, 83);
-    margin-bottom: 15px;
 }
 .social{
-    width: 28px;
-    height: 28px;
+    width: 42px;
+    height: 42px;
     transition: transform 0.3s;
 }
 .social:hover {
     transform: scale(1.1);
 }
 .phone-number {
-    margin-left: 20px;
-    font-size: 18px;
-    color: #a22002;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #1502a2;
     font-weight: bold;
 }
 .menu-button {
@@ -81,7 +80,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.95);
     display: none;
     flex-direction: column;
     align-items: center;
@@ -97,12 +96,13 @@ body {
 }
 .overlay .menu a {
     font-size: 24px;
-    color: rgb(204, 196, 251);
+    color: rgb(255, 255, 255);
 }
 .overlay .social-icons, .overlay .phone-number {
     color: white;
 }
 .overlay .phone-number {
+    /* margin-top: 15px; */
     color: rgb(255, 159, 159);
 }
 .close-button {
@@ -115,7 +115,7 @@ body {
 }
 @media (max-width: 768px) {
     .logo img{
-        width: 120px;
+        width: 100px;
     }
     .menu, .social-icons .phone-number {
         display: none;
@@ -124,18 +124,26 @@ body {
         margin-bottom: 20px;
     }
     .phone-number {
-        margin-left: 0;
-        margin-top: 25px;
-        color: rgb(255, 159, 159);
+        margin-left: 20px;
+        font-size: 18px;
+        color: #1502a2;
+        font-weight: bold;
     }
-    .social-icons {
+    .phone-mobile {
+        padding: 20px;
+        font-size: 22px;
+        color: rgb(252, 100, 100);
+        font-weight: bold;
+    }
+    .mobile-icons a{
         display: flex;
+        margin-bottom: 20px;
+        text-decoration: none;
         justify-content: center;
         align-items: center;
+        color: rgb(255, 255, 255);
     }
-    .social-icons a{
-        color: rgb(68, 87, 255);
-    }
+
     .menu-button {
         display: block;
     }
