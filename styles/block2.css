@@ -1,0 +1,112 @@
+:root {
+  --offer-bg: #fff;
+  --offer-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  --card-bg: #fff;
+  --card-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  --card-hover-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  --text-color: #000;
+  --secondary-text: #555;
+  --link-color: #0056b3;
+  --placeholder-bg: #eaeaea;
+}
+
+.special-offers {
+  max-width: 1400px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: var(--offer-bg);
+  box-shadow: var(--offer-shadow);
+  border-radius: 8px;
+}
+
+.special-offers h2 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: var(--text-color);
+}
+
+.offers-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.offer-card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  box-shadow: var(--card-shadow);
+  padding: 20px;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.offer-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--card-hover-shadow);
+}
+
+.offer-image {
+  background-color: var(--placeholder-bg);
+  height: 350px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../images/promo1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.offer-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+
+.offer-card p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: var(--secondary-text);
+}
+
+.offer-link {
+  color: var(--link-color);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.offer-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .special-offers {
+    padding: 15px;
+  }
+
+  .special-offers h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+
+  .offers-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .offer-card {
+    padding: 15px;
+  }
+
+  .offer-image {
+    height: 250px;
+  }
+}

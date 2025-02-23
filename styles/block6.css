@@ -1,0 +1,114 @@
+:root {
+  --service-bg: #fff;
+  --service-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  --service-border: #e0e0e0;
+  --service-hover-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  --button-bg: #e9d7ff;
+  --button-color: #5a00a1;
+  --button-hover-bg: #d2b7ff;
+  --text-color: #333;
+  --secondary-text: #666;
+}
+
+.parent-container {
+  max-width: 1400px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: var(--service-bg);
+  box-shadow: var(--service-shadow);
+  border-radius: 8px;
+}
+
+.service-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.service {
+  background: var(--service-bg);
+  border: 1px solid var(--service-border);
+  border-radius: 8px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.service:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--service-hover-shadow);
+}
+
+.service img {
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  background-color: #eee;
+  object-fit: cover;
+}
+
+.service h3 {
+  font-size: 1.25em;
+  margin: 15px 0 10px;
+  color: var(--text-color);
+}
+
+.service p {
+  font-size: 0.875em;
+  color: var(--secondary-text);
+  margin-bottom: 15px;
+}
+
+.service .price {
+  font-size: 1em;
+  color: var(--text-color);
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.service button {
+  background: var(--button-bg);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: var(--button-color);
+  font-size: 0.875em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.service button:hover {
+  background: var(--button-hover-bg);
+}
+
+@media (max-width: 768px) {
+  .service img {
+    height: 250px;
+  }
+
+  .service-title {
+    font-size: 1.75em;
+  }
+}
+
+@media (max-width: 480px) {
+  .services {
+    grid-template-columns: 1fr;
+  }
+
+  .service img {
+    height: 200px;
+  }
+
+  .service-title {
+    font-size: 1.5em;
+  }
+}

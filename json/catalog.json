@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "title": "Памятники",
+    "description": "Памятники на могилу",
+    "price": "",
+    "image": "images/catalog/menu/1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Мемориальные комплексы",
+    "description": "Каждый мемориальный комплекс уникален",
+    "price": "",
+    "image": "images/catalog/menu/2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Цветники",
+    "description": "Цветники на могилу",
+    "price": "",
+    "image": "images/catalog/menu/3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Голгофы",
+    "description": "Голгофы на могилу",
+    "price": "",
+    "image": "images/catalog/menu/4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Цоколи",
+    "description": "Цоколи на могилу",
+    "price": "от 85 000 ₽",
+    "image": "images/catalog/menu/5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Столы и лавочки",
+    "description": "Столы и лавочки на кладбище",
+    "price": "",
+    "image": "images/catalog/menu/6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Портретная плитка",
+    "description": "Портретная плитка на могилу",
+    "price": "",
+    "image": "images/catalog/menu/7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Облицовочная плитка",
+    "description": "Облицовочная плитка на могилу",
+    "price": "",
+    "image": "images/catalog/menu/8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Оградки",
+    "description": "Оградки на могилу",
+    "price": "",
+    "image": "images/catalog/menu/9.png"
+  },
+  {
+    "id": 10,
+    "title": "Благоустройство: Площадки",
+    "description": "Площадки с цветником и без",
+    "price": "",
+    "image": "images/catalog/menu/10.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Щебень",
+    "description": "Щебень на могилу",
+    "price": "",
+    "image": "images/catalog/menu/11.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Брусчатка",
+    "description": "Брусчатка на могилу",
+    "price": "",
+    "image": "images/catalog/menu/12.png"
+  },
+  {
+    "id": 13,
+    "title": "Бронзовые буквы",
+    "description": "Бронзовые буквы на памятник",
+    "price": "",
+    "image": "images/catalog/menu/13.png"
+  },
+  {
+    "id": 14,
+    "title": "Мемориальная доска",
+    "description": "Мемориальная доска",
+    "price": "",
+    "image": "images/catalog/menu/14.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Гравировка",
+    "description": "Гравировка",
+    "price": "",
+    "image": "images/catalog/menu/15.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Товары",
+    "description": "Фото на: металлокерамике, керамограните, стекле; Вазы, Лампадки",
+    "price": "",
+    "image": "images/catalog/menu/16.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Оформление памятника",
+    "description": "Оформление памятника",
+    "price": "",
+    "image": "images/catalog/menu/17.jpg"
+  }
+]
