@@ -53,7 +53,7 @@ body {
 }
 .social-icons a{
     color: rgb(30, 4, 83);
-
+    margin-bottom: 15px;
 }
 .social{
     width: 28px;
@@ -131,6 +131,9 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .social-icons a{
+        color: rgb(68, 87, 255);
     }
     .menu-button {
         display: block;
